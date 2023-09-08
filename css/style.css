@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #f9f9f9;
+    color: #a0a0a0;
+}
+header{
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+}
+input{
+    border: none;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 1rem;
+    width: 80%;
+}
+.ingresar{
+    border: none;
+    color: white;
+    background-color: #F1C40F;
+    border-radius: 1rem;
+    width: 100%;
+    font-size: 1.2rem;
+    font-weight: 700;
+    padding: 1rem;
+    cursor: pointer;
+}
+.recuerdame{
+    font-size: 1.2rem;
+}
+.container-ingresar{
+    display: flex;
+    justify-content: center;
+    margin: 2rem 1.3rem 2rem 1.3rem;
+}
+.container-form{
+    display: flex;
+    flex-direction: column;
+}
+.container-save{
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem 1.3rem 2rem 1.3rem;
+}
+.container-password{
+    display: flex;
+    flex-direction: column;
+    margin: 1.3rem;
+}
+.img-logo{
+    width: 200px;
+}
+.img-footer{
+    width: 100%;
+}
+.forgot-my-password, .forgot-my-password2{
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+    margin: 0.5rem 0 0.5rem 0;
+}
+.forgot-my-password2{
+    margin-bottom: 2rem;
+}
+.img-footer{
+    border-radius: 3rem 3rem 0 0;
+    filter: brightness(0.6);
+    opacity: 0.9;
+    display: block;
+}
+.icon1, .icon2{
+    font-size: 1.3rem;
+}
+.button-toggle-on{
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    font-size: 2rem;
+}
